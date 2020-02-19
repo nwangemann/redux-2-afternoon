@@ -20,8 +20,7 @@ class Budget extends Component {
   }
 
   render() {
-    const {loading} = this.props
-    console.log(this.props)
+    const {loading} = this.props.budget
     return (
       <Background>
         {loading ? <Loading /> : null}
